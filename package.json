@@ -1,0 +1,15 @@
+{
+  "name": "md2anki",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "md2anki": "mdanki ./src/vue/vue.md ./src/vue/vue.anki"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mdanki": "^1.1.2"
+  }
+}
