@@ -9,7 +9,7 @@ async function transform() {
       console.log(`mdanki ${basePath}/${language}/${language}.md ${basePath}/${language}/${language}.anki`);
       console.log(language, '开始执行');
 
-      return asyncExec(`npx mdanki ${basePath}/${language}/${language}.md ${basePath}/${language}/${language}.anki`)
+      return asyncExec(`npx mdanki ${basePath}/${language}/${language}.md ${basePath}/${language}/${language}.apkg`)
         .then(() => {
           console.log(language, '执行结束');
         })

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "md2anki": "mdanki ./src/vue/vue.md ./src/vue/vue.anki"
+    "md2anki": "mdanki ./src/vue/vue.md ./src/vue/vue.apkg"
   },
   "keywords": [],
   "author": "",
