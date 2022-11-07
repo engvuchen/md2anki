@@ -4,12 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "md2anki": "mdanki ./src/vue/vue.md ./src/vue/vue.apkg"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "mdanki": "^1.1.2"
-  }
+  },
+  "path_list": [
+    "vue",
+    "browser-render"
+  ]
 }

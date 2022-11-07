@@ -11,4 +11,4 @@
 
 1. 使用简悦解析页面为 MD 文件；
 2. 自行整理后，放到对应语言的 md 文件；
-3. 执行 `node index.js`
+3. 执行 `node index.js`（使用配置在 `package.json` 的 `path_list`）；
